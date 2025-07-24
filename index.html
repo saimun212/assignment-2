@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="/src/style.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header class="header-title">
-        <!--header section-->     
-            <div>
-             <img src="assets/logo.png" alt="">
-            </div>
-            <div class="header-anchore">
-                <ul>
-                <a class="anchor-item-1" href=""> home</a>
-                <a id="anchor-1" class="anchor-item-1 " href="">shop</a>
-                <a id="anchor-1"  class="anchor-item-1" href=""> about us</a>
-                <a id="card" class="anchor-item-1 " href=""> <img class="card" src="assets/Screenshot_1.png" alt="">card($56)</a>
-               
-                </ul>
-            </div>
-         </section>
-    </header>
-    <main>
+       <header>
+        <!---header section -1-->
+           <section class="m-[40px] flex "  >
+                     <div>
+                     <img class="m-px" src="assets/logo.png" alt="">
+                     </div>  
+                     <div class="m-[30px] text-[30px] flex space-x-4 ml-[750px] ">
+                        <h4><a href="">Home</a></h4>
+                        <h4 class="text-[#8987A1]"><a href="">Shop</a></h4>
+                        <h4  class="text-[#8987A1]"><a href="">About us</a></h4>
+                          <img class="w-15 h-10" src="assets/Screenshot_1.png" alt=""> 
+                        <h4><a href="">card($56)</a></h4>
+                     </div>
+           </section>
 
-    </main>
-    <footer>
+           <!----section 2-->
+               <section class="m-[100px] mt-[150px] flex" >
+                 <div>
+                       <h1 class="text-[50px] font-semibold "> ALWAYS  <span class="text-[#E95A08]">FRESH <br>FLOWERS</span></h1>
+                       <p class="text-[20px] text-[#b0a3a3]">Indulge your senses with the beauty <br> and fragrance of our fresh flower shop. From <br> classic  roses to exotic blooms,<br> we offer a wide variety of <br>fresh flowers that are perfect for any occasion. </p>
+                </div>
+                <div>
+               <img class="ml-[300px] mb-[100px]"  src="assets/hero-flower.png" alt="">
+                </div>
+               </section>
+       </header>
+       <main>
 
-    </footer>
+       </main>
+       <footer>
+
+       </footer>
 </body>
 </html>
