@@ -1,0 +1,78 @@
+.header {
+     margin: 10px;  
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+}
+.images-1{
+    margin-left: 140px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;    
+   margin: 40px;
+    color: black;
+   
+}
+.images-2{
+    height: 20px;
+    width: 20px;   
+}
+.navbar-anchor{
+    margin-top: 40px;
+    margin-right: 140px;   
+}
+.header-anchor{
+    color: #8987A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***small device.....*/
+/***header setion work**/
+@media screen and (max-width:576px){
+    .header{   
+        justify-content: center;
+    }
+    .images-1{
+    margin: 10px;
+    height: 100px;;
+    width: 100px;
+}
+.hidden-item{
+ visibility: hidden;
+ position: absolute;
+margin-bottom: 140px;
+}
+.images-2{
+    height: 40px;
+    width: 40px;   
+}
+.header-navbar-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     font-size: 30px;
+     margin-right: 50px;
+     margin-bottom: 40px;
+     position: absolute;
+
+}
+/*******header section work end**/
+
+}
+
+
+
+
+
