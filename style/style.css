@@ -187,10 +187,7 @@ margin-bottom: 140px;
      position: absolute;
 
 }
-.anchor{
-    display: grid;
-    grid-template-columns: 2, 1fr;
-}
+
 
 /*******header section work end**/
 /*******....main part start....***/
